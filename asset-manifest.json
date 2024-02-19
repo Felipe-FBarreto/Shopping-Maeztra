@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Shopping-Maeztra/static/css/main.43db8752.css",
+    "main.css": "/Shopping-Maeztra/static/css/main.b0b0522d.css",
     "main.js": "/Shopping-Maeztra/static/js/main.5b4f661a.js",
     "static/js/787.b12e7967.chunk.js": "/Shopping-Maeztra/static/js/787.b12e7967.chunk.js",
     "static/media/home-main-banner-desk.jpg": "/Shopping-Maeztra/static/media/home-main-banner-desk.0d1343facd81026c6e06.jpg",
@@ -29,12 +29,12 @@
     "static/media/linkedin.svg": "/Shopping-Maeztra/static/media/linkedin.33e7a284c717e55e6992f6fac65edde8.svg",
     "static/media/facebook.svg": "/Shopping-Maeztra/static/media/facebook.bed7d4f0aa0ceb0a54bc6f5ea4514b21.svg",
     "static/media/newsletter-mail-icon.svg": "/Shopping-Maeztra/static/media/newsletter-mail-icon.503bb4f47057b2cf5e19d572f774d86c.svg",
-    "main.43db8752.css.map": "/Shopping-Maeztra/static/css/main.43db8752.css.map",
+    "main.b0b0522d.css.map": "/Shopping-Maeztra/static/css/main.b0b0522d.css.map",
     "main.5b4f661a.js.map": "/Shopping-Maeztra/static/js/main.5b4f661a.js.map",
     "787.b12e7967.chunk.js.map": "/Shopping-Maeztra/static/js/787.b12e7967.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43db8752.css",
+    "static/css/main.b0b0522d.css",
     "static/js/main.5b4f661a.js"
   ]
 }
