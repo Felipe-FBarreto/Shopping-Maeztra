@@ -1,0 +1,105 @@
+@import "../../styles/variables"; 
+
+.footer-menu {
+  padding: 44px 20px 64px;
+}
+
+.footer-menu__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 952px;
+  margin: 0 auto;
+
+  > * + * {
+    margin-top: 16px;
+  }
+
+  .footer-menu__section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: $sub-color;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 700;
+      margin: 0 0 24px;
+      span {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        
+      }
+
+      &::after {
+        display: none; /* Remover o botão "+" */
+      }
+
+      &[aria-expanded="true"]::after {
+        content: "-";
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        
+        a{
+          font-size: 12px;
+          margin: 0 0 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1026px) {
+  .footer-menu__wrapper {
+    flex-direction: row;
+    > * + * {
+      margin-left: 16px;
+    }
+
+    .footer-menu__section ul {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .footer-menu {
+    padding: 40px 30px 56px;
+  }
+
+  .footer-menu__wrapper {
+    flex-direction: column;
+    max-width: 640px;
+
+    .footer-menu__section h2 {
+      cursor: pointer;
+      gap: 30px;
+      width: 100%;
+      button {
+        font-size: 20px;
+        font-weight: 700;
+        
+      }
+    }
+
+    .footer-menu__section ul {
+      display: none;
+    }
+
+    .footer-menu__section ul.open {
+      display: block;
+    }
+  }
+}

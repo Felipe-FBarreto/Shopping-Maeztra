@@ -1,0 +1,35 @@
+@import "../../styles/variables"; 
+
+.search-bar__form {
+  width: 100%;
+  max-width: 790px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #efefef;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 24px;
+
+  input {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 16px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 120px;
+    color: $main-light-color;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    height: 100%;
+
+    border-radius: 8px;
+    background-color: $main-color;
+    padding: 8px;
+  }
+}
